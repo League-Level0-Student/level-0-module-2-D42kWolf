@@ -18,25 +18,25 @@ public class Validation {
 
 		// 1. Use each value of randomNumber to give the user a random compliment.
 		if (randomNumber == 1) {
-			
+			 JOptionPane.showMessageDialog(null, "You're epic");
 		} else if (randomNumber == 2) {
-			
+			 JOptionPane.showMessageDialog(null, "You got pretty hair ");
 		} else if (randomNumber == 3) {
-			
+			 JOptionPane.showMessageDialog(null, "great eyes");
 		} else if (randomNumber == 4) {
-			
+			 JOptionPane.showMessageDialog(null, "great smile");
 		} else if (randomNumber == 5) {
-			
+			 JOptionPane.showMessageDialog(null, "great voice");
 		} else if (randomNumber == 6) {
-			
+			 JOptionPane.showMessageDialog(null, "great computer skills");
 		} else if (randomNumber == 7) {
-			
+			 JOptionPane.showMessageDialog(null, "great coding");
 		} else if (randomNumber == 8) {
-			
+			 JOptionPane.showMessageDialog(null, "great");
 		} else if (randomNumber == 9) {
-			
+			 JOptionPane.showMessageDialog(null, "great hair");
 		} else if (randomNumber == 10) {
-			
+			 JOptionPane.showMessageDialog(null, "epic greatttttttttttt");
 		} else {
 			
 		}
