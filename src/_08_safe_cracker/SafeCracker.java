@@ -23,9 +23,10 @@ public class SafeCracker {
 		 * combinations
 		 */
 		
-
+		 for (int i = 0; i < 9999999; ++i) {
+			 tryCode(i);     
 	}
-
+	}
 	static void tryCode(int guess) {
 		System.out.println("trying " + guess);
 
