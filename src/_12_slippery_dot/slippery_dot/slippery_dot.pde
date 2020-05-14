@@ -5,7 +5,7 @@
  
     void setup() {
       // 2. Set the size of your sketch
-    size(500,500);
+    size(1000,1000);
     }
     
     void draw() {
@@ -27,7 +27,7 @@
       //7.  Use an if statement to check if the distance variable is < the radius of the ellipse
       //    If it is, set a new x and y for the ellipse, using a random location on the window
       //    Hint: Use the Processing random() function
-       if(distance < 100 ){ 
+       if(distance < 100 ){ random(0, 50);
        }
     }
     
