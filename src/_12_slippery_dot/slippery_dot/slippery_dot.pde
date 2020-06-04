@@ -27,7 +27,10 @@
       //7.  Use an if statement to check if the distance variable is < the radius of the ellipse
       //    If it is, set a new x and y for the ellipse, using a random location on the window
       //    Hint: Use the Processing random() function
-       if(distance < 100 ){ random(0, 50);
+       if(distance < 100 )
+       { 
+        x = (int)random (0, 1001);
+        y = (int)random (0,1001);
        }
     }
     
